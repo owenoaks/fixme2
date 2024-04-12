@@ -1,13 +1,14 @@
-import { SignIn } from "@clerk/nextjs";
+/*import { SignIn } from "@clerk/nextjs";
 
 export default function Page() {
   return <SignIn />;
 }
+*/
 
-/*import { SignIn } from "@clerk/nextjs";
+import { SignIn } from "@clerk/nextjs";
 
 const SignInPage = () => {
-  return <div>SignIn</div>;
+  return <SignIn />;
 };
 
-export default SignInPage; */
+export default SignInPage;
